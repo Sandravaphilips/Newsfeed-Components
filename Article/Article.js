@@ -160,7 +160,7 @@ function createComponent(componentObject) {
   p2.textContent = componentObject.firstParagraph;
   p3.textContent = componentObject.secondParagraph;
   p4.textContent = componentObject.thirdParagraph;
-  span.textContent = "Click to Open/Close";
+  span.textContent = "Read/Close";
 
   div.classList.add('article');
   p1.classList.add('date');
