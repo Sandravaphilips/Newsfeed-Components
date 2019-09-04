@@ -160,12 +160,12 @@ function createComponent(componentObject) {
   p2.textContent = componentObject.firstParagraph;
   p3.textContent = componentObject.secondParagraph;
   p4.textContent = componentObject.thirdParagraph;
-  span.textContent = "Click to Close";
+  span.textContent = "Click to Open/Close";
 
   div.classList.add('article');
   p1.classList.add('date');
   span.classList.add('expandButton');
-  div.classList.add('article-open');
+  // div.classList.add('article-open');
 
   div.appendChild(h2);
   div.appendChild(p1);
